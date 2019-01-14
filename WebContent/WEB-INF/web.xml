@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>register.jsp</welcome-file>
+  </welcome-file-list>
+ 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ddb</servlet-name>
+    <servlet-class>servlet.DbServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModiffyServlet</servlet-name>
+    <servlet-class>servlet.ModiffyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryScholarship</servlet-name>
+    <servlet-class>servlet.QueryScholarshipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InputScoreServlet</servlet-name>
+    <servlet-class>servlet.InputScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryScoreServlet</servlet-name>
+    <servlet-class>servlet.QueryScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InputScore2Servlet</servlet-name>
+    <servlet-class>servlet.InputScore2Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateCreditServlet</servlet-name>
+    <servlet-class>servlet.UpdateCreditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModiffyMServlet</servlet-name>
+    <servlet-class>servlet.ModiffyMServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoadScoreServlet</servlet-name>
+    <servlet-class>servlet.LoadScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <servlet-class>servlet.UpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>servlet.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScholatSetupServlet</servlet-name>
+    <servlet-class>servlet.ScholatSetupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CaluScholarServlet</servlet-name>
+    <servlet-class>servlet.CaluScholarServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ddb</servlet-name>
+    <url-pattern>/Db</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModiffyServlet</servlet-name>
+    <url-pattern>/ModiffyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryScholarship</servlet-name>
+    <url-pattern>/QueryScholarship</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InputScoreServlet</servlet-name>
+    <url-pattern>/InputScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryScoreServlet</servlet-name>
+    <url-pattern>/QueryScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InputScore2Servlet</servlet-name>
+    <url-pattern>/InputScore2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCreditServlet</servlet-name>
+    <url-pattern>/UpdateCredit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModiffyMServlet</servlet-name>
+    <url-pattern>/ModiffyM</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoadScoreServlet</servlet-name>
+    <url-pattern>/LoadScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <url-pattern>/UpLoad</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScholatSetupServlet</servlet-name>
+    <url-pattern>/ScholatSetup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CaluScholarServlet</servlet-name>
+    <url-pattern>/CaluScholar</url-pattern>
+  </servlet-mapping>
+</web-app>
